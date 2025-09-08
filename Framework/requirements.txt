@@ -1,6 +1,0 @@
-streamlit==1.36.0
-plotly==5.23.0
-pandas==2.2.2
-paramiko==3.4.0
-numpy==1.26.4
-pyserial==3.5
