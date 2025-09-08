@@ -22,7 +22,7 @@ Remote Connection Mode → For network-based auto-detected devices, with secure 
 
 The framework empowers hardware engineers, QA testers, and DevOps teams to validate devices locally or across distributed systems.
 
-This isn’t just a framework — it’s a test automation ecosystem.
+More than a framework — it’s a portable, plug-and-play foundation that makes test automation flexible and reusable
 
 _________________________________________________________________________________________________________
 
@@ -406,4 +406,5 @@ This guide will walk you through *how to use the framework* in both *Serial Conn
 * *Remote Mode* = Network devices via SSH.
 * *AI Suggestion* = Auto-recommended parameters.
 ______________________________________________________________________________________________________ :)
+
 
