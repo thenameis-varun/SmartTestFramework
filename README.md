@@ -5,7 +5,7 @@
 | 12   -> Introduction
 | 28   -> Technical Highlights
 | 53   -> Project Structure
-| 90   -> Project Workflow
+| 92   -> Project Workflow
 | 282  -> User Manual
 
 _________________________________________________________________________________________________________
@@ -84,6 +84,8 @@ SmartTestFramework/
 │
 ├── requirements.txt              # Dependencies
 ├── framework.db                  # SQLite databas
+├── launch.bat                    # Index file (Windows)
+├── launch.sh                     # Index file (MacOS/Linux)
 └── README.md                     # Documentation
 
 _________________________________________________________________________________________________________
@@ -107,10 +109,8 @@ The framework orchestrates the entire lifecycle of *test definition → executio
 
 1. App Launch
    
-   Navigate to root - Framework
-
-   ```bash
-   streamlit run src/standalone/app.py
+   ```
+   launch file will import dependencies from requirements.txt and runs the command - streamlit run src/standalone/app.py
    ```
 
 2. Core Modules Loaded:
@@ -291,9 +291,7 @@ This guide will walk you through *how to use the framework* in both *Serial Conn
 
 1. Navigate to root - Framework
    
-   ```bash
-   streamlit run src/standalone/app.py
-   ```
+   Double click launch file
 
 2. The app opens in your browser: [http://localhost:8502](http://localhost:8502)
 
@@ -406,4 +404,5 @@ This guide will walk you through *how to use the framework* in both *Serial Conn
 * *Remote Mode* = Network devices via SSH.
 * *AI Suggestion* = Auto-recommended parameters.
 ______________________________________________________________________________________________________ :)
+
 
