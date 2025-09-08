@@ -5,8 +5,8 @@
 | 12   -> Introduction
 | 28   -> Technical Highlights
 | 53   -> Project Structure
-| 98   -> Project Workflow
-| 288  -> User Manual
+| 90   -> Project Workflow
+| 282  -> User Manual
 
 _________________________________________________________________________________________________________
 
@@ -406,3 +406,4 @@ This guide will walk you through *how to use the framework* in both *Serial Conn
 * *Remote Mode* = Network devices via SSH.
 * *AI Suggestion* = Auto-recommended parameters.
 ______________________________________________________________________________________________________ :)
+
