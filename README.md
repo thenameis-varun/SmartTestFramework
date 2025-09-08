@@ -53,7 +53,7 @@ ________________________________________________________________________________
 
 **PROJECT STRUCTURE**
 
-Framework/
+SmartTestFramework/
 │
 ├── src/
 │   ├── standalone/
@@ -406,3 +406,4 @@ This guide will walk you through *how to use the framework* in both *Serial Conn
 * *Remote Mode* = Network devices via SSH.
 * *AI Suggestion* = Auto-recommended parameters.
 ______________________________________________________________________________________________________ :)
+
