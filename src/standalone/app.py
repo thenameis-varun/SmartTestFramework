@@ -104,7 +104,7 @@ if "auto_detect_password" not in st.session_state:
 conn = init_db()
 
 # ---------------------- PAGE TITLE ----------------------
-st.title("⚡ TestFrameworkApp - Standalone")
+st.title("SmartTestFramework")
 
 # ---------------------- TABS ----------------------
 main_tab, dashboard_tab = st.tabs(["🖥️ Main", "📊 Dashboard"])
@@ -893,3 +893,4 @@ with dashboard_tab:
 
             else:
                 st.error(f"No timeline data available for {title_suffix}")
+
