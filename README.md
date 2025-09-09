@@ -83,7 +83,7 @@ SmartTestFramework/
 │       └── Job_*.log        
 │
 ├── requirements.txt              # Dependencies
-├── framework.db                  # SQLite databas
+├── framework.db                  # SQLite database (Logs, DUTStatus, JobIDCounter)
 ├── launch.bat                    # Index file (Windows)
 ├── launch.sh                     # Index file (MacOS/Linux)
 └── README.md                     # Documentation
@@ -404,5 +404,6 @@ This guide will walk you through *how to use the framework* in both *Serial Conn
 * *Remote Mode* = Network devices via SSH.
 * *AI Suggestion* = Auto-recommended parameters.
 ______________________________________________________________________________________________________ :)
+
 
 
