@@ -37,7 +37,14 @@ st.markdown(
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
-    h1, h2, h3 {
+    h1 {
+        font-weight: 700;
+        color: #f9fafb;
+        text-align: center; /* Centered title */
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* Shadow effect */
+        margin-bottom: 1.5rem;
+    }
+    h2, h3 {
         font-weight: 600;
         color: #f9fafb;
     }
@@ -62,12 +69,11 @@ st.markdown(
     .status-queued { background-color: #f59e0b; }
     .status-running { background-color: #3b82f6; }
     .status-completed { background-color: #10b981; }
-    /* Dark cards with white border */
     .info-card, .job-card {
         padding: 1rem;
         border-radius: 12px;
-        background-color: #1f2937 !important;  /* Dark card background */
-        border: 1px solid #ffffff;             /* White border */
+        background-color: #1f2937 !important;
+        border: 1px solid #ffffff;
         box-shadow: 0 2px 6px rgba(0,0,0,0.5);
         margin-bottom: 1rem;
         color: #f9fafb;
@@ -76,6 +82,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 # ---------------------- SESSION STATE ----------------------
 if "job_status" not in st.session_state:
@@ -893,4 +900,5 @@ with dashboard_tab:
 
             else:
                 st.error(f"No timeline data available for {title_suffix}")
+
 
