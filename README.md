@@ -66,8 +66,8 @@ SmartTestFramework/
 │   │
 │   ├── plugins/
 │   │   ├── tests/                # Local DUT test plugins (Serial)
-│   │   │   ├── cold_boot.py
-│   │   │   ├── power_cycle.py
+│   │   │   ├── cold_boot(prototype).py
+│   │   │   ├── warm_boot(prototype).py
 │   │   │   └── ...
 │   │   │
 │   │   └── auto_detect_tests/    # Remote system test plugins (SSH)
@@ -404,6 +404,7 @@ This guide will walk you through *how to use the framework* in both *Serial Conn
 * *Remote Mode* = Network devices via SSH.
 * *AI Suggestion* = Auto-recommended parameters.
 ______________________________________________________________________________________________________ :)
+
 
 
 
